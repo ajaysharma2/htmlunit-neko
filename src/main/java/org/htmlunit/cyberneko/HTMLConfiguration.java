@@ -484,4 +484,24 @@ public class HTMLConfiguration extends ParserConfigurationSettings implements XM
             return str.toString();
         }
     }
+
+    /** getHtmlComponents_ */
+    public List<HTMLComponent> getHtmlComponents_() {
+        return htmlComponents_;
+    }
+
+    /** getDocumentScanner_ */
+    public HTMLScanner getDocumentScanner_() {
+        return documentScanner_;
+    }
+
+    /** getTagBalancer_ */
+    public HTMLTagBalancer getTagBalancer_() {
+        return tagBalancer_;
+    }
+
+    /** getNamespaceBinder_ */
+    public NamespaceBinder getNamespaceBinder_() {
+        return namespaceBinder_;
+    }
 }
